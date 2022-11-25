@@ -2657,8 +2657,8 @@ p {
 
 .savoir {
   font-size: 16px;
-  background-color: #fff;
-  color: #000;
+  background-color: #1A2B6D;
+  color: #fff;
   padding: 10px 0px;
   width: 100%;
   max-width: 190px;
@@ -2683,7 +2683,7 @@ p {
 
 .u-section-1 .u-sheet-1 {
   min-height: 500px;
-  background: #A7ABB7;
+  background: whitesmoke;
 }
 
 .u-section-1 .u-group-1 {
@@ -40611,7 +40611,7 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-table-alt-custom-color-1 tr:nth-child(even)
         {
             color: #ffffff;
-            background-color: #a7abb7;
+            background-color: whitesmoke;
         }
 
         .u-button-style.u-custom-color-1,
@@ -41535,19 +41535,7 @@ a.u-link.u-text-hover-grey-90:hover {
   display:flex;
 }
 
-.features-icon-box::before {
-  content: "";
-  position: absolute;
-  background:#259bca;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  top: 100%;
-  transition: all 0.4s;
-  z-index: -1;
-}
-
-.features-icon-box:hover::before {
+.features-icon-box:hover {
   background:#DDD;
   top: 0;
   border-radius: 0px;
@@ -41575,6 +41563,11 @@ a.u-link.u-text-hover-grey-90:hover {
   text-align: center;    
 }
 
+.features-icon-box a{
+  color: #1A2B6D;
+}
+
+
 .section {
 	/*padding:100px 0 70px;*/
 	position:relative;
@@ -41583,6 +41576,8 @@ a.u-link.u-text-hover-grey-90:hover {
 .paragraphe{
 text-align: center;
 }
+
+
 
 .section .container {
 	position:relative;
